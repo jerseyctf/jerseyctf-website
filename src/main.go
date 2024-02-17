@@ -72,6 +72,11 @@ func ccpp(w http.ResponseWriter, r *http.Request) {
 	tmpl.ExecuteTemplate(w, "footer", nil)
 }
 
+func discord(w http.ResponseWriter, r *http.Request) {
+	http.Redirect(w, r, "https://discord.gg/Rm3XrBPxeg", http.StatusMovedPermanently)
+
+}
+
 func main() {
 	port := strconv.Itoa(PORT)
 
@@ -85,6 +90,7 @@ func main() {
 
 	http.HandleFunc("/", index)
 	http.HandleFunc("/ccpp", ccpp)
+	http.HandleFunc("/discord", discord)
 
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
