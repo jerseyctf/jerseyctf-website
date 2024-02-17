@@ -36,6 +36,7 @@ func GetSponsors() Sponsors {
 		},
 	}
 
+
 	manager := []Sponsor{}
 
 	analyst := []Sponsor{

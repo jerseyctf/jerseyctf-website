@@ -30,6 +30,7 @@ type SpeakerStruct struct {
 
 func GetSpeakers() []SpeakerStruct {
 	return []SpeakerStruct{
+
 		{
 			Pic:      "personPlaceholder.png",
 			Name:     "James Perry",
