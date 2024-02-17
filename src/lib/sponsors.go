@@ -27,43 +27,43 @@ func GetSponsors() Sponsors {
 		},
 	}
 
-	ciso := []Sponsor{}
+	ciso := []Sponsor{
+		{
+			HREF:   "https://www.merck.com/",
+			Source: "Merck.png",
+			ALT:    "Merck",
+			Width:  "200",
+		},
+	}
+
 
 	manager := []Sponsor{}
 
 	analyst := []Sponsor{
-		/*
-			{
-				HREF:   "https://www.paloaltonetworks.com/",
-				Source: "palo_alto_logo.png",
-				ALT:    "Palo Alto",
-				Width:  "400",
-			},
-			{
-				HREF:   "https://cloud.google.com/",
-				Source: "google_logo.gif",
-				ALT:    "Google",
-				Width:  "200",
-			},
-			{
-				HREF:   "https://www.github.com/",
-				Source: "github_logo.png",
-				ALT:    "GitHub",
-				Width:  "150",
-			},
-			{
-				HREF:   "https://www.offsec.com/",
-				Source: "offsec_logo.jpg",
-				ALT:    "OffSec",
-				Width:  "400",
-			},
-			{
-				HREF:   "https://www.specterops.io",
-				Source: "specterops_logo.png",
-				ALT:    "SpecterOps",
-				Width:  "400",
-			},
-		*/
+		{
+			HREF:   "https://aws.amazon.com/",
+			Source: "AWS_Logo.png",
+			ALT:    "AWS",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.crowdstrike.com/en-us/",
+			Source: "crowdstrike.png",
+			ALT:    "CrowdStrike",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.isaca.org/",
+			Source: "ISACA_logo_RGB.jpg",
+			ALT:    "ISACA",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://letsdefend.io/",
+			Source: "LetsDefendLogo.png",
+			ALT:    "Let's Defend",
+			Width:  "200",
+		},
 	}
 
 	tiers := []Tier{
