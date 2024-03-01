@@ -32,10 +32,10 @@ func GetSpeakers() []SpeakerStruct {
 	return []SpeakerStruct{
 
 		{
-			Pic:      "personPlaceholder.png",
+			Pic:      "JamesPerry.jpeg",
 			Name:     "James Perry",
 			Position: "Security Lead at AWS",
-			Talk:     "TBD",
+			Talk:     "Cultivating Cybersecurity Culture: Navigating New Threats in the Cloud",
 			Time:     "",
 		},
 		{

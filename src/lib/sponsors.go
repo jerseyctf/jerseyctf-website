@@ -34,12 +34,31 @@ func GetSponsors() Sponsors {
 			ALT:    "Merck",
 			Width:  "200",
 		},
+		{
+			HREF:   "https://www.adp.com/",
+			Source: "ADP-Logo.png",
+			ALT:    "ADP",
+			Width:  "200",
+		},
 	}
 
 
-	manager := []Sponsor{}
+	manager := []Sponsor{
+		{
+			HREF:   "https://www.splunk.com/",
+			Source: "splunk-logo.png",
+			ALT:    "Splunk",
+			Width:  "200",
+		},
+	}
 
 	analyst := []Sponsor{
+		{
+			HREF:   "https://www.paloaltonetworks.com/",
+			Source: "palo-alto-logo.png",
+			ALT:    "Palo-Alto",
+			Width:  "200",
+		},
 		{
 			HREF:   "https://aws.amazon.com/",
 			Source: "AWS_Logo.png",
@@ -63,6 +82,18 @@ func GetSponsors() Sponsors {
 			Source: "LetsDefendLogo.png",
 			ALT:    "Let's Defend",
 			Width:  "200",
+		},
+		{
+			HREF:   "https://github.com/",
+			Source: "github_logo.png",
+			ALT:    "Github",
+			Width:  "200",
+		},
+		{
+			HREF: "https://futureconevents.com/",
+			Source: "FutureCon_Logo.png",
+			ALT: "Future Con",
+			Width: "200",
 		},
 	}
 
