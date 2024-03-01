@@ -10,7 +10,7 @@ func GetFaq() []Faq {
 	return []Faq{
 		{
 			Question: "What is JerseyCTF?",
-			Answer:   "JerseyCTF is a beginner-friendly Capture the Flag competition that aims to inspire interest in cybersecurity. Organized by the NJIT <a target='_blank' href=https://njit.acm.org>Association of Computing Machinery</a> and <a target='_blank' href= https://njiticc.com>the NJIT Information and Cybersecurity Club</a> and the <a target='_blank' href=https://sci.njit.edu>NJIT SCI Students</a> program, it is geared towards students, beginners, and professionals alike. JerseyCTF provides participants with jeopardy-style questions in categories including cryptography, forensics, binary exploitation/reversing, open-source intelligence, and web exploitation.  JerseyCTF features a track parallel to the CTF competition, consisting of presentations and panels with renowned speakers from industry and government.",
+			Answer:   "JerseyCTF is a beginner-friendly Capture the Flag competition that aims to inspire interest in cybersecurity. Organized by the NJIT <a target='_blank' href=https://njit.acm.org>Association of Computing Machinery</a> and the <a target='_blank' href= https://njiticc.com>NJIT Information and Cybersecurity Club</a> and the <a target='_blank' href=https://sci.njit.edu>NJIT SCI Students</a> program, it is geared towards students, beginners, and professionals alike. JerseyCTF provides participants with jeopardy-style questions in categories including cryptography, forensics, binary exploitation/reversing, open-source intelligence, and web exploitation.  JerseyCTF features a track parallel to the CTF competition, consisting of presentations and panels with renowned speakers from industry and government.",
 		},
 		{
 			Question: "Who can sign up to compete?",
@@ -22,7 +22,7 @@ func GetFaq() []Faq {
 		},
 		{
 			Question: "Will there be prizes?",
-			Answer:   "Yes! There are 2 leaderboard divisions: Student and Open. Prizes will be awarded in both divisions for top scoring teams and participants residing in the United States will receive a complimentary JerseyCTF t-shirt.",
+			Answer:   "Yes! There are 2 leaderboard divisions: Student and Open. Prizes will be awarded in both divisions for top scoring teams and participants for the in-person event will receive a complimentary JerseyCTF t-shirt.",
 		},
 		{
 			Question: "How big is JerseyCTF?",
