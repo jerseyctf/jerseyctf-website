@@ -52,6 +52,30 @@ func GetSpeakers() []SpeakerStruct {
 			Talk:     "",
 			Time:     "",
 		},
+
+		/*
+					{
+				Pic:      "JamesPerry.jpeg",
+				Name:     "James Perry",
+				Position: "Security Lead at AWS",
+				Talk:     "Cultivating Cybersecurity Culture: Navigating New Threats in the Cloud",
+				Time:     "",
+			},
+			{
+				Pic:      "personPlaceholder.png",
+				Name:     "Guest FBI Speaker",
+				Position: "[REDACTED]",
+				Talk:     "[REDACTED]",
+				Time:     "",
+			},
+			{
+				Pic:      "Patrick_Park.jpg",
+				Name:     "Patrick Park",
+				Position: "Director of Information security at Milbank",
+				Talk:     "",
+				Time:     "",
+			},
+		*/
 	}
 }
 

@@ -42,7 +42,6 @@ func GetSponsors() Sponsors {
 		},
 	}
 
-
 	manager := []Sponsor{
 		{
 			HREF:   "https://www.splunk.com/",
@@ -90,10 +89,16 @@ func GetSponsors() Sponsors {
 			Width:  "200",
 		},
 		{
-			HREF: "https://futureconevents.com/",
+			HREF:   "https://futureconevents.com/",
 			Source: "FutureCon_Logo.png",
-			ALT: "Future Con",
-			Width: "200",
+			ALT:    "Future Con",
+			Width:  "300",
+		},
+		{
+			HREF:   "https://cloud.google.com/",
+			Source: "Google_Cloud_logo.png",
+			ALT:    "Google_Cloud",
+			Width:  "500",
 		},
 	}
 
