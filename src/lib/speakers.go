@@ -40,16 +40,16 @@ func GetSpeakers() []SpeakerStruct {
 		},
 		{
 			Pic:      "personPlaceholder.png",
-			Name:     "TBD",
+			Name:     "Guest FBI Speaker",
 			Position: "",
 			Talk:     "",
 			Time:     "",
 		},
 		{
-			Pic:      "personPlaceholder.png",
-			Name:     "TBD",
-			Position: "",
-			Talk:     "",
+			Pic:      "Patrick_Park.jpg",
+			Name:     "Patrick Park",
+			Position: "Board Director - ISACA New Jersey Chapter",
+			Talk:     "Cyberattacks in Corporations: Myth and Reality",
 			Time:     "",
 		},
 

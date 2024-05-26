@@ -100,6 +100,12 @@ func GetSponsors() Sponsors {
 			ALT:    "Google_Cloud",
 			Width:  "500",
 		},
+		{
+			HREF: "https://www.isc2chapternj.org/",
+			Source: "ISC2_NJ_Chapter.png",
+			ALT: "ISC2 NJ Chapter",
+			Width:  "300",
+		},
 	}
 
 	tiers := []Tier{
