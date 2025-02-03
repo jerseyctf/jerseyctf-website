@@ -31,23 +31,30 @@ type SpeakerStruct struct {
 func GetSpeakers() []SpeakerStruct {
 	return []SpeakerStruct{
 
+		// {
+		// 	Pic:      "personPlaceholder.png",
+		// 	Name:     "James Perry",
+		// 	Position: "Security Lead at AWS",
+		// 	Talk:     "TBD",
+		// 	Time:     "",
+		// },
 		{
 			Pic:      "personPlaceholder.png",
-			Name:     "James Perry",
-			Position: "Security Lead at AWS",
-			Talk:     "TBD",
-			Time:     "",
-		},
-		{
-			Pic:      "personPlaceholder.png",
-			Name:     "TBD",
+			Name:     "TBA",
 			Position: "",
 			Talk:     "",
 			Time:     "",
 		},
 		{
 			Pic:      "personPlaceholder.png",
-			Name:     "TBD",
+			Name:     "TBA",
+			Position: "",
+			Talk:     "",
+			Time:     "",
+		},
+		{
+			Pic:      "personPlaceholder.png",
+			Name:     "TBA",
 			Position: "",
 			Talk:     "",
 			Time:     "",
