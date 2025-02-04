@@ -6,7 +6,6 @@ type Resource struct {
 	Playlist string
 }
 
-
 // Returns an Array of Writeups for usage throughout program
 func GetResources() []Resource {
 	return []Resource{
@@ -21,9 +20,14 @@ func GetResources() []Resource {
 			Playlist: "https://youtube.com/playlist?list=PLrcTWWy-esnCuaiEMSj6Bst4phnq-Qg6B",
 		},
 		{
-			Year:"2023",
+			Year:     "2023",
 			Writeups: "https://ctftime.org/event/1908/tasks/",
 			Playlist: "https://www.youtube.com/playlist?list=PLrcTWWy-esnDXi3khogdlAgkisL19IM08",
+		},
+		{
+			Year:     "2024",
+			Writeups: "https://ctftime.org/event/2230/tasks/",
+			Playlist: "https://www.youtube.com/playlist?list=PLrcTWWy-esnD_HhRIpgMM5dIBiCDr9K4z",
 		},
 	}
 }

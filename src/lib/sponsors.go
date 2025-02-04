@@ -28,16 +28,24 @@ func GetSponsors() Sponsors {
 	}
 
 	ciso := []Sponsor{
+		// {
+		// 	HREF:   "https://www.merck.com/",
+		// 	Source: "Merck.png",
+		// 	ALT:    "Merck",
+		// 	Width:  "200",
+		// },
+	}
+
+	manager := []Sponsor{}
+
+	networkEng := []Sponsor{
 		{
-			HREF:   "https://www.merck.com/",
-			Source: "Merck.png",
-			ALT:    "Merck",
+			HREF:   "https://www.adp.com/",
+			Source: "ADP_Logo.png",
+			ALT:    "ADP",
 			Width:  "200",
 		},
 	}
-
-
-	manager := []Sponsor{}
 
 	analyst := []Sponsor{
 		{
@@ -46,24 +54,24 @@ func GetSponsors() Sponsors {
 			ALT:    "AWS",
 			Width:  "200",
 		},
-		{
-			HREF:   "https://www.crowdstrike.com/en-us/",
-			Source: "crowdstrike.png",
-			ALT:    "CrowdStrike",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.isaca.org/",
-			Source: "ISACA_logo_RGB.jpg",
-			ALT:    "ISACA",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://letsdefend.io/",
-			Source: "LetsDefendLogo.png",
-			ALT:    "Let's Defend",
-			Width:  "200",
-		},
+		// {
+		// 	HREF:   "https://www.crowdstrike.com/en-us/",
+		// 	Source: "crowdstrike.png",
+		// 	ALT:    "CrowdStrike",
+		// 	Width:  "200",
+		// },
+		// {
+		// 	HREF:   "https://www.isaca.org/",
+		// 	Source: "ISACA_logo_RGB.jpg",
+		// 	ALT:    "ISACA",
+		// 	Width:  "200",
+		// },
+		// {
+		// 	HREF:   "https://letsdefend.io/",
+		// 	Source: "LetsDefendLogo.png",
+		// 	ALT:    "Let's Defend",
+		// 	Width:  "200",
+		// },
 	}
 
 	tiers := []Tier{
@@ -87,6 +95,11 @@ func GetSponsors() Sponsors {
 			Spons:    analyst,
 			TierName: "Security Analyst Sponsor",
 			CSSName:  "sponsor-analyst",
+		},
+		{
+			Spons:    networkEng,
+			TierName: "Network Engineer Sponsor",
+			CSSName:  "sponsor-network",
 		},
 	}
 

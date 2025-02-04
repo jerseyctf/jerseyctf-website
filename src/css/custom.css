@@ -24,7 +24,7 @@
 }
 
 [class*="sponsor-"] {
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     font-weight: bold;
 }
@@ -33,6 +33,7 @@
 .sponsor-ciso {  background-color: #f5de33; }
 .sponsor-manager { background-color: #b9c1c9; }
 .sponsor-analyst { background-color: #bd9939; }
+.sponsor-network { background-color: #c7e7bb; }
 
 .centralize{
     margin: auto;    
