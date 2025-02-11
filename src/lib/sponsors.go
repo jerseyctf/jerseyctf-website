@@ -54,6 +54,18 @@ func GetSponsors() Sponsors {
 			ALT:    "AWS",
 			Width:  "200",
 		},
+		{
+			HREF:   "https://futureconevents.com/",
+			Source: "FC_Logo_Red_Background.png",
+			ALT:    "Futurecon",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.paloaltonetworks.com/",
+			Source: "palo_alto_logo.png",
+			ALT:    "Palo Alto",
+			Width:  "200",
+		},
 		// {
 		// 	HREF:   "https://www.crowdstrike.com/en-us/",
 		// 	Source: "crowdstrike.png",
@@ -93,7 +105,7 @@ func GetSponsors() Sponsors {
 		},
 		{
 			Spons:    analyst,
-			TierName: "Security Analyst Sponsor",
+			TierName: "Security Analyst Sponsors",
 			CSSName:  "sponsor-analyst",
 		},
 		{
