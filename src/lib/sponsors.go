@@ -66,18 +66,24 @@ func GetSponsors() Sponsors {
 			ALT:    "Palo Alto",
 			Width:  "200",
 		},
-		// {
-		// 	HREF:   "https://www.crowdstrike.com/en-us/",
-		// 	Source: "crowdstrike.png",
-		// 	ALT:    "CrowdStrike",
-		// 	Width:  "200",
-		// },
-		// {
-		// 	HREF:   "https://www.isaca.org/",
-		// 	Source: "ISACA_logo_RGB.jpg",
-		// 	ALT:    "ISACA",
-		// 	Width:  "200",
-		// },
+		{
+			HREF:   "https://www.crowdstrike.com/en-us/",
+			Source: "Crowdstrike_Logo.png",
+			ALT:    "CrowdStrike",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.isaca.org/",
+			Source: "ISACA_Logo.jpg",
+			ALT:    "ISACA",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.isaca.org/",
+			Source: "GitHub_Logo.png",
+			ALT:    "GitHub",
+			Width:  "200",
+		},
 		// {
 		// 	HREF:   "https://letsdefend.io/",
 		// 	Source: "LetsDefendLogo.png",

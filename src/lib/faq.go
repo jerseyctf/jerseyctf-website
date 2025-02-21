@@ -26,7 +26,7 @@ func GetFaq() []Faq {
 		},
 		{
 			Question: "How big is JerseyCTF?",
-			Answer:   "JerseyCTF had 1,515 registrations in 2023. We are looking forward to welcoming more registrants and participants in 2024!",
+			Answer:   "JerseyCTF had 1,700+ registrations in 2024. We are looking forward to welcoming more registrants and participants for JerseyCTF V in 2025!",
 		},
 		{
 			Question: "Do I have to pay to compete in JerseyCTF?",
@@ -34,7 +34,7 @@ func GetFaq() []Faq {
 		},
 		{
 			Question: "Do I have to register as a team?",
-			Answer:   "No! You're welcome to register with your friends and compete with a team of up to 4 people, but you can also register by yourself or find a team in the Discord server.",
+			Answer:   "No! You're welcome to register with your friends and compete with a team, but you can also register by yourself or find a team in the Discord server.",
 		},
 		{
 			Question: "You guys haven't answered my question!",
