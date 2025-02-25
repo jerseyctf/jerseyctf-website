@@ -36,7 +36,20 @@ func GetSponsors() Sponsors {
 		// },
 	}
 
-	manager := []Sponsor{}
+	manager := []Sponsor{
+		{
+			HREF:   "https://www.blackwood.ai/",
+			Source: "Blackwood_Horizontal.png",
+			ALT:    "Blackwood",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.splunk.com/",
+			Source: "Splunk_No_Bkg.png",
+			ALT:    "Splunk",
+			Width:  "200",
+		},
+	}
 
 	networkEng := []Sponsor{
 		{
@@ -79,8 +92,8 @@ func GetSponsors() Sponsors {
 			Width:  "200",
 		},
 		{
-			HREF:   "https://www.isaca.org/",
-			Source: "GitHub_Logo.png",
+			HREF:   "https://github.com/",
+			Source: "github_logo.png",
 			ALT:    "GitHub",
 			Width:  "200",
 		},
