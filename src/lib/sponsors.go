@@ -97,6 +97,12 @@ func GetSponsors() Sponsors {
 			ALT:    "GitHub",
 			Width:  "200",
 		},
+		{
+			HREF:   "https://www.tekstream.com/",
+			Source: "TekStream.png",
+			ALT:    "TekStrem",
+			Width:  "200",
+		},
 		// {
 		// 	HREF:   "https://letsdefend.io/",
 		// 	Source: "LetsDefendLogo.png",
@@ -118,6 +124,11 @@ func GetSponsors() Sponsors {
 			CSSName:  "sponsor-ciso",
 		},
 		{
+			Spons:    networkEng,
+			TierName: "Network Engineer Sponsor",
+			CSSName:  "sponsor-network",
+		},
+		{
 			Spons:    manager,
 			TierName: "Security Manager Sponsor",
 			CSSName:  "sponsor-manager",
@@ -126,11 +137,6 @@ func GetSponsors() Sponsors {
 			Spons:    analyst,
 			TierName: "Security Analyst Sponsors",
 			CSSName:  "sponsor-analyst",
-		},
-		{
-			Spons:    networkEng,
-			TierName: "Network Engineer Sponsor",
-			CSSName:  "sponsor-network",
 		},
 	}
 
