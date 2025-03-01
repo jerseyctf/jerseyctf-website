@@ -25,6 +25,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 	tmpl.ExecuteTemplate(w, "navNBody", navBar)
 
 	tmpl.ExecuteTemplate(w, "infographic", nil)
+	tmpl.ExecuteTemplate(w, "flyer", nil)
 
 	for _, value := range navBar {
 		switch value {
