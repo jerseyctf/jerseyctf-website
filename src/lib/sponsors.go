@@ -103,6 +103,18 @@ func GetSponsors() Sponsors {
 			ALT:    "TekStrem",
 			Width:  "200",
 		},
+		{
+			HREF:   "https://www.verizon.com/",
+			Source: "Verizon.svg",
+			ALT:    "Verizon",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.wiz.io/",
+			Source: "Wiz.png",
+			ALT:    "Wiz",
+			Width:  "200",
+		},
 		// {
 		// 	HREF:   "https://letsdefend.io/",
 		// 	Source: "LetsDefendLogo.png",
