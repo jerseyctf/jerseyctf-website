@@ -41,22 +41,22 @@ func GetSpeakers() []SpeakerStruct {
 		{
 			Pic:      "personPlaceholder.png",
 			Name:     "TBA",
-			Position: "",
-			Talk:     "",
+			Position: "AWS",
+			Talk:     "From the Trenches to the Clouds: Active Incident Response and the Future of Security",
 			Time:     "",
 		},
 		{
 			Pic:      "personPlaceholder.png",
 			Name:     "TBA",
-			Position: "",
-			Talk:     "",
+			Position: "ISACA",
+			Talk:     "How to build a cybersecurity program from scratch",
 			Time:     "",
 		},
 		{
 			Pic:      "personPlaceholder.png",
 			Name:     "TBA",
-			Position: "",
-			Talk:     "",
+			Position: "ADP",
+			Talk:     "Application development security",
 			Time:     "",
 		},
 	}
