@@ -4,6 +4,7 @@ type Tier struct {
 	Spons    []Sponsor
 	TierName string
 	CSSName  string
+	// Color    string
 }
 
 type Sponsor struct {
@@ -128,6 +129,7 @@ func GetSponsors() Sponsors {
 			Spons:    title,
 			TierName: "Title Sponsor",
 			CSSName:  "sponsor-title",
+			// Color:    "#b9f2ff",
 		},
 
 		{

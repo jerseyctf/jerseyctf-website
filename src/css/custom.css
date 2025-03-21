@@ -2,6 +2,20 @@ html {
     overflow-x: hidden;
 }
 
+.section-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.section-header {
+    width: 100%;
+    padding: 1rem;
+    background-color: #545557;
+    color: white;
+    text-align: center;
+}
+
 /* ----------- Nav ------------- */
 
 .navbar {
@@ -57,17 +71,6 @@ html {
     text-align: center;
 }
 
-/* ----------- Section Headers ------------- */
-
-.section-header {
-    width: 100%;
-    padding: 1rem;
-    background-color: #545557;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-}
-
 #flyer {
     width: 100vh;
     max-width: 100%;
@@ -86,67 +89,104 @@ html {
     }
 }
 
-.footnote-info {
-    color: white;
-    margin-top: -10px;
-    font-size: 75%;
-    margin-left: 15%;
-}
+/* ----------- Registration ------------- */
 
 .registText {
     margin: 10px 0px 20px 0px;
     text-align: center;
 }
 
-/* Sponsor Section */
-.sponsec {
-    margin-top: 1%;
-    margin-bottom: 1%;
+/* ----------- Sponsors ------------- */
+#Sponsors .section-container {
+    display: grid;
+    gap: 1rem;
 }
 
-[class*="sponsor-"] {
+#sponsor-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#sponsor-join {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sponsor-join button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #c91d05;
+    font-weight: bold;
+    color: white;
+    transition: box-shadow linear 0.1s;
+}
+
+#sponsor-join button:hover {
+    box-shadow: lightgray 0 0 10px 5px;
+}
+
+.sponsor-category-container {
+    border: lightgray solid 1px;
+}
+
+.sponsor-category-container>h5 {
     font-size: x-large;
     text-align: center;
     font-weight: bold;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
 }
 
-.sponsor-title {
+.sponsor-category-container>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.sponsor-title>h5 {
     background-color: #b9f2ff;
 }
 
-.sponsor-ciso {
+.sponsor-ciso>h5 {
     background-color: #f5de33;
 }
 
-.sponsor-manager {
+.sponsor-manager>h5 {
     background-color: #b9c1c9;
 }
 
-.sponsor-analyst {
+.sponsor-analyst>h5 {
     background-color: #d994f5;
 }
 
-.sponsor-network {
+.sponsor-network>h5 {
     background-color: #c7e7bb;
 }
 
-.centralize {
-    margin: auto;
-    display: block;
-}
-
-/* FAQ Section */
+/* ----------- FAQ ------------- */
 .faq-question {
     color: #c91d05;
 }
 
-/* Footer Section */
+/* ----------- Footer ------------- */
 .foots {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    background-color: #2c2c2c;
+    background-color: #545557;
     color: #ffffff;
     text-align: center;
+}
+
+#ccpp-link {
+    color: white;
 }
 
 .foots-img {
