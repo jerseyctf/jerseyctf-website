@@ -144,7 +144,7 @@ func GetSponsors() Sponsors {
 		},
 		{
 			Spons:    manager,
-			TierName: "Security Manager Sponsor",
+			TierName: "Security Manager Sponsors",
 			CSSName:  "sponsor-manager",
 		},
 		{
