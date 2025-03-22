@@ -27,7 +27,7 @@ a {
 }
 
 #navbar-brand {
-    transform: rotate(10deg);
+    transform: rotate(10deg) translateY(-2px);
     height: 50px;
 }
 
