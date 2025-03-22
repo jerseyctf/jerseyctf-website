@@ -96,6 +96,39 @@ html {
     text-align: center;
 }
 
+/* ----------- Speakers ------------- */
+
+#speaker-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* align-items: stretch; */
+    justify-content: center;
+}
+.speaker-card {
+    max-width: 250px;
+    height: auto;
+    border: lightgray solid 1px;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.speaker-card img {
+    width: 100%;
+    /* just take the min height image dimensions */
+    aspect-ratio: 216 / 270;
+    object-fit: cover;
+}
+
+.speaker-card h5 {
+    font-weight: bold;
+}
+
+.speaker-card p {
+    margin: 0;
+}
+
 /* ----------- Sponsors ------------- */
 #Sponsors .section-container {
     display: grid;

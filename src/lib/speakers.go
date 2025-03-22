@@ -39,17 +39,17 @@ func GetSpeakers() []SpeakerStruct {
 		// 	Time:     "",
 		// },
 		{
-			Pic:      "personPlaceholder.png",
-			Name:     "TBA",
-			Position: "AWS",
+			Pic:      "AnthonyHarvey.jpg",
+			Name:     "Anthony Harvey",
+			Position: "Sr. Security Solutions Architect at AWS",
 			Talk:     "From the Trenches to the Clouds: Active Incident Response and the Future of Security",
 			Time:     "",
 		},
 		{
-			Pic:      "personPlaceholder.png",
-			Name:     "TBA",
-			Position: "ISACA",
-			Talk:     "How to build a cybersecurity program from scratch",
+			Pic:      "KenFishkin.jpg",
+			Name:     "Ken Fishkin",
+			Position: "President of ISC2",
+			Talk:     "When Cybersecurity meets Stranger Things!  Learn How Being a Dungeon Master Can Improve Your Cybersecurity Program.",
 			Time:     "",
 		},
 		{
@@ -77,14 +77,14 @@ func Speaker(w http.ResponseWriter, tpl *template.Template) {
 
 	tpl.ExecuteTemplate(w, "speaker-start", nil)
 
-	tpl.ExecuteTemplate(w, "speaker-card-group-start", nil)
+	// tpl.ExecuteTemplate(w, "speaker-card-group-start", nil)
 
 	for _, speaker := range speakers {
 		tpl.ExecuteTemplate(w, "speaker-card", speaker)
 	}
 
-	tpl.ExecuteTemplate(w, "speaker-div-end", nil)
+	// tpl.ExecuteTemplate(w, "speaker-div-end", nil)
 
-	tpl.ExecuteTemplate(w, "speaker-div-end", nil)
+	// tpl.ExecuteTemplate(w, "speaker-div-end", nil)
 
 }
