@@ -1,35 +1,28 @@
-{{block "speaker-start" .}}
-<div id="Speakers" class="row justify-content-evenly">
-    <h4 class="jerctf">@speakers</h4>
-    {{end}}
-
-{{block "speaker-card-group-start" .}}
-<div class="card-group row" style="padding: 2rem;">
-{{end}}
-
-{{block "speaker-card" .}}
-{{if true}}
-<div class="col-md-4 col-lg-3 col-sm-6" style="margin: auto;">
-    <div class="card h-100" style="padding: 1rem; margin: auto;">
-            <img src="/assets/img/speaker/{{.Pic}}" class="card-img-top" alt="{{.Name}}">
-            <div class="card-body">
-                <h5 style="font-weight: bold;" class="card-title">{{.Name}}</h5>
-                <h6 class="card-text">{{.Time}}</h6>
-                <p class="card-text">{{.Position}}</p>
-                {{if .Talk}}
-                <p class="card-text">Speaker Topic: <i>{{.Talk}}</i></p>
-                {{end}}
+{{block "speakers" .}}
+<div id="Speakers">
+    <h4 class="section-header">Speakers</h4>
+    <div class="section-container">
+        <div id="speaker-container">
+            {{if true}}
+            {{range .}}
+            <div class="speaker-card">
+                <img src="/assets/img/speaker/{{.Pic}}" alt="{{.Name}}">
+                <div>
+                    <h5>{{.Name}}</h5>
+                    <h6>{{.Time}}</h6>
+                    <p>{{.Position}}</p>
+                    {{if .Talk}}
+                    <p><b>Speaker Topic:</b> <i>{{.Talk}}</i></p>
+                    {{end}}
+                </div>
             </div>
+            {{end}}
+            {{else}}
+            <div>
+                <h5 style="font-weight: bold; text-align: center;">Speaker Information Coming Soon</h5>
+            </div>
+            {{end}}
+        </div>
     </div>
 </div>
-{{else}}
-<div class="row justify-content-evenly">
-    <h5 style="font-weight: bold; text-align: center;">Speaker Information Coming Soon</h5>
-</div>
-{{end}}
-
-{{end}}
-
-{{block "speaker-div-end" .}}
-    </div>
 {{end}}

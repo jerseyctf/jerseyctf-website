@@ -36,7 +36,9 @@ func index(w http.ResponseWriter, r *http.Request) {
 			tmpl.ExecuteTemplate(w, "schedule", nil)
 
 		case "Speakers":
-			L.Speaker(w, tmpl)
+			speakers := L.GetSpeakers()
+			tmpl.ExecuteTemplate(w, "speakers", speakers)
+			// L.Speaker(w, tmpl)
 
 		case "Sponsors":
 			sponsors := L.GetSponsors()

@@ -29,7 +29,7 @@
     <!-- Navbar:: to move around the site a bit better -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a href="./#" > <img src="/assets/img/JCTFV/Title.png" class="navbar-brand" width="150"> </a>
+            <a href="./#" > <img src="/assets/img/JCTFV/Title.png" id="navbar-brand"> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,8 +43,8 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" data-bs-spy="scroll" data-bs-target="#" data-bs-offset="10"
-    tabindex="0">
+    <!-- <div class="container-fluid" data-bs-spy="scroll" data-bs-target="#" data-bs-offset="10"
+    tabindex="0"> -->
 {{end}}
 
 {{block "footer" .}}
@@ -61,7 +61,7 @@
             <a target="_blank" href="https://sci.njit.edu/"><img class="img-fluid foots-img" src="/assets/img/footer/sci_logo_tall.png" alt="NJIT SCI Logo"></a>
 
             <br>
-            <p><a href="./ccpp#">Code of Conduct & Privacy Policy</a></p>
+            <a id="ccpp-link" href="./ccpp#">Code of Conduct & Privacy Policy</a>
         </div>
     </footer>
 </div>
