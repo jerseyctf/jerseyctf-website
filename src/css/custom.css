@@ -168,9 +168,11 @@ a {
 
 .sponsor-category-container {
     border: lightgray solid 1px;
+    display: flex;
+    flex-direction: column;
 }
 
-.sponsor-category-container>h5 {
+.sponsor-category-container > h5 {
     font-size: x-large;
     text-align: center;
     font-weight: bold;
@@ -179,7 +181,8 @@ a {
     padding: 1rem;
 }
 
-.sponsor-category-container>div {
+.sponsor-category-container > div {
+    flex: 1 1 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,23 +191,23 @@ a {
     padding: 1rem;
 }
 
-.sponsor-title>h5 {
+.sponsor-title > h5 {
     background-color: #b9f2ff;
 }
 
-.sponsor-ciso>h5 {
+.sponsor-ciso > h5 {
     background-color: #f5de33;
 }
 
-.sponsor-manager>h5 {
+.sponsor-manager > h5 {
     background-color: #b9c1c9;
 }
 
-.sponsor-analyst>h5 {
+.sponsor-analyst > h5 {
     background-color: #d994f5;
 }
 
-.sponsor-network>h5 {
+.sponsor-network > h5 {
     background-color: #c7e7bb;
 }
 
