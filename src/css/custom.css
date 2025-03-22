@@ -16,6 +16,10 @@ html {
     text-align: center;
 }
 
+a {
+    color: #c91d05;
+}
+
 /* ----------- Nav ------------- */
 
 .navbar {
@@ -207,6 +211,34 @@ html {
 /* ----------- FAQ ------------- */
 .faq-question {
     color: #c91d05;
+}
+
+/* ----------- Resources ------------- */
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: lightgray solid 1px;
+    text-align: center;
+}
+
+th {
+    background-color: #c91d05;
+    color: white;
+}
+
+td {
+    background-color: ghostwhite;
+    border: lightgray solid 1px;
+}
+
+#rsrc-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 /* ----------- Footer ------------- */
