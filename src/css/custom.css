@@ -44,8 +44,9 @@ a {
 
 #infographic-container {
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     display: flex;
+    flex-direction: column;
     gap: 1rem;
     margin: auto;
 }
@@ -60,6 +61,7 @@ a {
 
 #title-info {
     order: 2;
+    font-size: 20pt;
     color: white;
     margin: auto;
     align-self: center;
@@ -67,6 +69,7 @@ a {
 
 #pow-by {
     width: min-content;
+    height: min-content;
     margin: 0 auto;
 }
 
@@ -82,22 +85,19 @@ a {
     margin: 2rem auto;
 }
 
-@media (max-width: 500px) {
-    #infographic-container {
-        flex-direction: column;
-    }
-
-    #infographic-info {
-        text-align: center;
-        width: 90%;
-    }
-}
-
 /* ----------- Registration ------------- */
 
 .registText {
     margin: 10px 0px 20px 0px;
     text-align: center;
+}
+
+/* ----------- Schedule ------------- */
+#schedule-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* ----------- Speakers ------------- */
