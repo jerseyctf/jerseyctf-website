@@ -20,7 +20,7 @@ type Sponsors struct {
 
 func GetSponsors() Sponsors {
 	title := []Sponsor{
-		{
+		{ //LEAVE
 			HREF:   "https://www.cyber.nj.gov/",
 			Source: "NJCCIC_logo.png",
 			ALT:    "NJCCIC",
@@ -38,7 +38,7 @@ func GetSponsors() Sponsors {
 	}
 
 	manager := []Sponsor{
-		{
+		/*{
 			HREF:   "https://www.blackwood.ai/",
 			Source: "Blackwood_Horizontal.png",
 			ALT:    "Blackwood",
@@ -49,79 +49,79 @@ func GetSponsors() Sponsors {
 			Source: "Splunk_No_Bkg.png",
 			ALT:    "Splunk",
 			Width:  "200",
-		},
+		},*/
 	}
 
 	networkEng := []Sponsor{
-		{
+		/*{
 			HREF:   "https://www.adp.com/",
 			Source: "ADP_Logo.png",
 			ALT:    "ADP",
 			Width:  "200",
-		},
+		},*/
 	}
 
 	analyst := []Sponsor{
-		{
+		{ //LEAVE
 			HREF:   "https://aws.amazon.com/",
 			Source: "AWS_Logo.png",
 			ALT:    "AWS",
 			Width:  "200",
 		},
-		{
+		{ //LEAVE
 			HREF:   "https://futureconevents.com/",
 			Source: "FC_Logo_Red_Background.png",
 			ALT:    "Futurecon",
 			Width:  "200",
-		},
-		{
-			HREF:   "https://www.paloaltonetworks.com/",
-			Source: "palo_alto_logo.png",
-			ALT:    "Palo Alto",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.crowdstrike.com/en-us/",
-			Source: "Crowdstrike_Logo.png",
-			ALT:    "CrowdStrike",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.isaca.org/",
-			Source: "ISACA_Logo.jpg",
-			ALT:    "ISACA",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://github.com/",
-			Source: "github_logo.png",
-			ALT:    "GitHub",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.tekstream.com/",
-			Source: "TekStream.png",
-			ALT:    "TekStrem",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.verizon.com/",
-			Source: "Verizon.svg",
-			ALT:    "Verizon",
-			Width:  "200",
-		},
-		{
-			HREF:   "https://www.wiz.io/",
-			Source: "Wiz.png",
-			ALT:    "Wiz",
-			Width:  "200",
-		},
-		// {
-		// 	HREF:   "https://letsdefend.io/",
-		// 	Source: "LetsDefendLogo.png",
-		// 	ALT:    "Let's Defend",
-		// 	Width:  "200",
-		// },
+		}, /*
+			{
+				HREF:   "https://www.paloaltonetworks.com/",
+				Source: "palo_alto_logo.png",
+				ALT:    "Palo Alto",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://www.crowdstrike.com/en-us/",
+				Source: "Crowdstrike_Logo.png",
+				ALT:    "CrowdStrike",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://www.isaca.org/",
+				Source: "ISACA_Logo.jpg",
+				ALT:    "ISACA",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://github.com/",
+				Source: "github_logo.png",
+				ALT:    "GitHub",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://www.tekstream.com/",
+				Source: "TekStream.png",
+				ALT:    "TekStrem",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://www.verizon.com/",
+				Source: "Verizon.svg",
+				ALT:    "Verizon",
+				Width:  "200",
+			},
+			{
+				HREF:   "https://www.wiz.io/",
+				Source: "Wiz.png",
+				ALT:    "Wiz",
+				Width:  "200",
+			},
+			// {
+			// 	HREF:   "https://letsdefend.io/",
+			// 	Source: "LetsDefendLogo.png",
+			// 	ALT:    "Let's Defend",
+			// 	Width:  "200",
+			// },*/
 	}
 
 	tiers := []Tier{
