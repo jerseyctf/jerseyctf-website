@@ -28,14 +28,7 @@ func GetSponsors() Sponsors {
 		},
 	}
 
-	ciso := []Sponsor{
-		// {
-		// 	HREF:   "https://www.merck.com/",
-		// 	Source: "Merck.png",
-		// 	ALT:    "Merck",
-		// 	Width:  "200",
-		// },
-	}
+	ciso := []Sponsor{}
 
 	manager := []Sponsor{
 		/*{
@@ -73,25 +66,43 @@ func GetSponsors() Sponsors {
 			Source: "FC_Logo_Red_Background.png",
 			ALT:    "Futurecon",
 			Width:  "200",
+		},
+		{
+			HREF:   "https://www.merck.com/",
+			Source: "Merck.png",
+			ALT:    "Merck",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://newjersey.isc2chapters.isc2.org/page/overview",
+			Source: "isc2-nj-logo.png",
+			ALT:    "ISC2-NJ",
+			Width:  "200",
 		}, /*
 			{
 				HREF:   "https://www.paloaltonetworks.com/",
 				Source: "palo_alto_logo.png",
 				ALT:    "Palo Alto",
 				Width:  "200",
-			},
-			{
-				HREF:   "https://www.crowdstrike.com/en-us/",
-				Source: "Crowdstrike_Logo.png",
-				ALT:    "CrowdStrike",
-				Width:  "200",
-			},
-			{
-				HREF:   "https://www.isaca.org/",
-				Source: "ISACA_Logo.jpg",
-				ALT:    "ISACA",
-				Width:  "200",
-			},
+			},*/
+		{
+			HREF:   "https://www.crowdstrike.com/en-us/",
+			Source: "Crowdstrike_Logo.png",
+			ALT:    "CrowdStrike",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.isaca.org/",
+			Source: "ISACA_Logo.jpg",
+			ALT:    "ISACA",
+			Width:  "200",
+		},
+		{
+			HREF:   "https://www.adp.com/",
+			Source: "ADP_Logo.png",
+			ALT:    "ADP",
+			Width:  "200",
+		}, /*
 			{
 				HREF:   "https://github.com/",
 				Source: "github_logo.png",

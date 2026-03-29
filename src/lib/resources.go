@@ -32,7 +32,7 @@ func GetResources() []Resource {
 		{
 			Year:     "2025",
 			Writeups: "https://ctftime.org/event/2667/tasks/",
-			Playlist: "https://www.youtube.com/playlist?list=PLrcTWWy-esnD_HhRIpgMM5dIBiCDr9K4z",
+			Playlist: "https://www.youtube.com/playlist?list=PLrcTWWy-esnAysiobjXQ2E7qTJ_tXdkYl",
 		},
 	}
 }
