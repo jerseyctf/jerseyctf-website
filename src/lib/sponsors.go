@@ -102,13 +102,13 @@ func GetSponsors() Sponsors {
 			Source: "ADP_Logo.png",
 			ALT:    "ADP",
 			Width:  "200",
-		}, /*
-			{
-				HREF:   "https://github.com/",
-				Source: "github_logo.png",
-				ALT:    "GitHub",
-				Width:  "200",
-			},*/
+		},
+		{
+			HREF:   "https://github.com/",
+			Source: "github_logo.png",
+			ALT:    "GitHub",
+			Width:  "200",
+		},
 		{
 			HREF:   "https://www.tekstream.com/",
 			Source: "TekStream.png",
